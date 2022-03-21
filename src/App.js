@@ -12,7 +12,9 @@ function App() {
   let [val,setVal]=useState('')
   const inputVal = useRef();
   let parent=useRef();
+
   const changeVal=(value)=>{
+    
    let v=value.value;
    let output=inputVal.current;
   setVal(val=v)
